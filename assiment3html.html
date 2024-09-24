@@ -1,0 +1,30 @@
+<!--- write an html document to draw graphics, cliciable button,dilog box windows with an html tag>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assigement</title>
+</head>
+
+<body>
+<canvas height="100"width="150" id="mycanvas" style="border:1px solid">
+</canvas>
+<script>
+const canvas = document.getElementById("mycanvas");
+const ctx = canvas.getcontext("2d");
+
+ctx.fillRect(0,0,100,80);
+ctx.fillstyle='blue';
+</script>
+
+<dialog open>
+<h2>Dialog Box</h2>
+<p>This is dialog box.</p>
+<button>Close</button>
+</dialog>
+
+</body>
+
+
+
+
+</html>
